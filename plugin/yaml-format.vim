@@ -1,4 +1,4 @@
-if exists('g:loaded_yaml-format') || &cp || !executable('yaml-format')
+if exists('g:loaded_yaml-format') || &cp || !executable('align')
 	finish
 endif
 let g:loaded_yaml_format = 1
